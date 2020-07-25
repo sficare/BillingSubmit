@@ -1,0 +1,15 @@
+{
+    "name": "Billing Submit",
+    "description": "Create a text file in a billing format from CSV",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Shawn Murphy"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

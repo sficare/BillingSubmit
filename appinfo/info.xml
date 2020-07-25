@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>billingsubmit</id>
+    <name>Billing Submit</name>
+    <summary>Create a text file in a billing format from CSV</summary>
+    <description><![CDATA[this application will first take a file and store it in the BillingSubmit folder. Then it willl create a csv from information in the file and information added to database about the billing type.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="shawnmurphy@sficare.com" homepage="https://sficare.com">Shawn Murphy</author>
+    <namespace>BillingSubmit</namespace>
+    <category>office</category>
+    <bugs>https://github.com/sficare/BillingSubmit</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Billing Submit</name>
+            <route>billingsubmit.page.index</route>
+        </navigation>
+    </navigations>
+</info>
